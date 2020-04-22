@@ -5,7 +5,8 @@ array.forEach((element,index,array)=>{
 }
 function iterate(callback){
   var arr=[1,2,3,4,5];
-  arr.forEach()
+  arr.forEach(callback);
+  return(arr);
 }
 function doToArray(array,callback){
 
